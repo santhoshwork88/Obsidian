@@ -11,10 +11,14 @@
             "id": "fe42f14636f168d6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DBMS/SQL.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "SQL"
             }
           }
         ]
@@ -163,6 +167,9 @@
   },
   "active": "fe42f14636f168d6",
   "lastOpenFiles": [
+    "Assets/sqlRoadmap.pdf",
+    "DBMS/SQL.md",
+    "DBMS",
     "Welcome.md"
   ]
 }

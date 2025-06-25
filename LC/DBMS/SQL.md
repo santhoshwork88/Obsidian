@@ -17,13 +17,13 @@ Alter table table_name add (column name datatype()) after name; --add the column
 
 ## SQL Languages:
 
-| Language                           | Commands                                         |
-| ---------------------------------- | ------------------------------------------------ |
-| DDL - Data Definition Language     | CREATE, DROP, ALTER, TRUNCATE, COMMENT, RENAME   |
-| DML - Data Manipulation Language   | INSERT, UPDATE, DELETE, LOCK, CALL, EXPLAIN PLAN |
-| DCL - Data Control Language        | GRANT, REVOKE                                    |
-| TCL - Transaction control Language | BEGIN TRANSACTION, COMMIT, ROLLBACK, SAVEPOINT   |
-| DQL - Data Query Language          | SELECT                                           |
+| Language                           | Commands                                                             |
+| ---------------------------------- | -------------------------------------------------------------------- |
+| DDL - Data Definition Language     | CREATE, DROP, ALTER, TRUNCATE, COMMENT, RENAME                       |
+| DML - Data Manipulation Language   | INSERT, UPDATE, DELETE, LOCK, CALL, EXPLAIN PLAN(dbms_xplan.display) |
+| DCL - Data Control Language        | GRANT, REVOKE                                                        |
+| TCL - Transaction control Language | BEGIN TRANSACTION, COMMIT, ROLLBACK, SAVEPOINT                       |
+| DQL - Data Query Language          | SELECT                                                               |
 
 ## 📘 1. String Data Types
 
@@ -76,7 +76,7 @@ Alter table table_name add (column name datatype()) after name; --add the column
 
 ## 🔄 6. Auto-Increment Columns
 
-| Oracle                                  | MySQL              | PostgreSQL                 |
-|----------------------------------------|---------------------|-----------------------------|
-| `SEQUENCE` + `TRIGGER` or `IDENTITY`   | `AUTO_INCREMENT`   | `SERIAL`, `BIGSERIAL`, `IDENTITY` |
+| Oracle                               | MySQL            | PostgreSQL                        |
+| ------------------------------------ | ---------------- | --------------------------------- |
+| `SEQUENCE` + `TRIGGER` or `IDENTITY` | `AUTO_INCREMENT` | `SERIAL`, `BIGSERIAL`, `IDENTITY` |
 

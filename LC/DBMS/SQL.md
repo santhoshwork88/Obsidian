@@ -79,3 +79,6 @@ Alter table table_name add (column name datatype()) after name; --add the column
 | Oracle                               | MySQL            | PostgreSQL                        |
 | ------------------------------------ | ---------------- | --------------------------------- |
 | `SEQUENCE` + `TRIGGER` or `IDENTITY` | `AUTO_INCREMENT` | `SERIAL`, `BIGSERIAL`, `IDENTITY` |
+
+
+SOME - used with subquery if the
